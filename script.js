@@ -18,3 +18,5 @@ if (entrada.value > numSecreto) {
 }else 
 alert("Parabens!!! você caretou")
 
+
+})   
