@@ -1,7 +1,7 @@
 const entrada= document.getElementById("entrada");
 const btn= document.getElementById("btn");
 
-let numSecreto=86;
+let numSecreto = Math.floor(Math.random()*100)
 
 
 btn.addEventListener("click", function(){
@@ -18,5 +18,3 @@ if (entrada.value > numSecreto) {
 }else 
 alert("Parabens!!! você caretou")
 
-
-})    
